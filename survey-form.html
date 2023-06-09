@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="survey-form.css">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id ="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+  </head>
+  <body>
+  <form id="survey-form">
+    <fieldset>
+      <label>Name <input type="text" id="name" placeholder="Enter your name"></label>
+      <label>Email <input type="email" id="email" placeholder="Enter your Email"></label>
+      <label>Age (optional) <input type="number" id="number" placeholder="Age"></label>
+      <label>Which option best describes your current role?
+        <select>
+        <option>Select your current role</option>
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer not to say</option>
+        <option>Others</option>
+      </select>
+    </label>
+    </fieldset>
+    <fieldset>
+      <label> <input type="radio"> Definitely</label>
+      <label> <input type="radio"> Maybe</label>
+      <label> <input type="radio"> Not sure</label>
+    </fieldset>
+
+    <fieldset>
+      <label>What is your favorite feature of freeCodeCamp?
+      <select>
+        <option>Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label> What would you like to see improved? (Check all that apply)    
+      <input type="checkbox"> Front-end Projects
+      <input type="checkbox"> Back-end Projects
+      <input type="checkbox"> Data Visualization
+      <input type="checkbox"> Challenges
+      <input type="checkbox"> Open Source Community
+      <input type="checkbox"> Gitter help rooms
+      <input type="checkbox"> Videos
+      <input type="checkbox"> City Meetups
+      <input type="checkbox"> Wiki
+      <input type="checkbox"> Forum
+      <input type="checkbox"> Additional Courses
+    </label>
+      <label for="bio">Any comments or suggestions?
+        <textarea placeholder="Enter your comment here..."></textarea>
+      </label>
+    </fieldset>
+
+    <input type="submit">
+    </body>
+  </form>
+  </body>
+</html>
+  
