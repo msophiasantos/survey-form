@@ -18,7 +18,7 @@ h1, p {
 
 form {
 
-  margin: 0 auto;
+  margin: 0;
   padding: 40px;
   align-content: center;
   width: 60vw;
@@ -36,4 +36,14 @@ input, fieldset, label {
 
 input {
   padding: 6px 12px 6px 12px;
+}
+
+label {
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 6px 12px 6px 12px;
+
 }
